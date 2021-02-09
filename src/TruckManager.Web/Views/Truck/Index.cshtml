@@ -1,0 +1,56 @@
+﻿@model IEnumerable<TruckViewModel>
+
+@{
+    ViewBag.Title = "Caminhões";
+}
+
+
+<div class="container-fluid mt-3">
+    <nav class="navbar bg-secondary">
+        <h3>@ViewBag.Title</h3>
+        <form class="d-flex">
+            <a asp-controller="Truck" asp-action="Create" class="btn btn-info">
+                <i class="fa fa-plus"></i>
+                Novo
+            </a>
+        </form>
+    </nav>
+    <div class="container-fluid">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Chassis</th>
+                    <th>Modelo</th>
+                    <th>Ano de Fabricação</th>
+                    <th>Ano Modelo</th>
+                    <th>Ações</th>
+                </tr>
+
+            </thead>
+            @foreach (var truck in Model)
+            {
+                <tbody>
+                    <tr>
+                        <td>@truck.Chassis</td>
+                        <td>@truck.TruckModel.Text</td>
+                        <td>@truck.BuildingYear</td>
+                        <td>@truck.ModelYear</td>
+                        <td>
+                            <div>
+                                <a asp-controller="truck" asp-action="details" asp-route-chassis="@truck.Chassis" title="Detalhes">
+                                    <i class="fa fa-eye"></i>
+                                </a>|
+                                <a asp-controller="truck" asp-action="edit" asp-route-chassis="@truck.Chassis" title="Editar">
+                                    <i class="fa fa-edit"></i>
+                                </a>|
+                                <a asp-controller="truck" asp-action="delete" asp-route-chassis="@truck.Chassis" title="Remover">
+                                    <i class="fa fa-trash"></i>
+                                </a>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            }
+        </table>
+    </div>
+</div>

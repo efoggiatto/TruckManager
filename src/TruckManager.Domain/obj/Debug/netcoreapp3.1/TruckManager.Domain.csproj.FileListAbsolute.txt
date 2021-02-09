@@ -1,0 +1,9 @@
+D:\DEV\TruckManager\src\TruckManager.Domain\bin\Debug\netcoreapp3.1\TruckManager.Domain.deps.json
+D:\DEV\TruckManager\src\TruckManager.Domain\bin\Debug\netcoreapp3.1\TruckManager.Domain.dll
+D:\DEV\TruckManager\src\TruckManager.Domain\bin\Debug\netcoreapp3.1\TruckManager.Domain.pdb
+D:\DEV\TruckManager\src\TruckManager.Domain\obj\Debug\netcoreapp3.1\TruckManager.Domain.csprojAssemblyReference.cache
+D:\DEV\TruckManager\src\TruckManager.Domain\obj\Debug\netcoreapp3.1\TruckManager.Domain.AssemblyInfoInputs.cache
+D:\DEV\TruckManager\src\TruckManager.Domain\obj\Debug\netcoreapp3.1\TruckManager.Domain.AssemblyInfo.cs
+D:\DEV\TruckManager\src\TruckManager.Domain\obj\Debug\netcoreapp3.1\TruckManager.Domain.csproj.CoreCompileInputs.cache
+D:\DEV\TruckManager\src\TruckManager.Domain\obj\Debug\netcoreapp3.1\TruckManager.Domain.dll
+D:\DEV\TruckManager\src\TruckManager.Domain\obj\Debug\netcoreapp3.1\TruckManager.Domain.pdb

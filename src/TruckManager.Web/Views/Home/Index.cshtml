@@ -1,0 +1,41 @@
+﻿@{
+}
+
+<h2>PROPOSTA</h2>
+
+<h3>Requisito principal</h3>
+<p>Como usuário, eu necessito de um cadastro de caminhões, onde eu possa:</p>
+<ul>
+    <li> Visualizar os caminhões cadastrados;</li>
+    <ul>
+        <li>As propriedades mínimas do caminhão deverão ser:</li>
+        <ul>
+            <li> Modelo (Poderá aceitar apenas FH e FM)</li>
+            <li> Ano de Fabricação (Ano deverá ser o atual)</li>
+            <li> Ano Modelo (Poderá ser o atual ou o ano subsequente)</li>
+        </ul>
+    </ul>
+    <li>Atualizar as informações de um caminhão;</li>
+    <li>Excluir um caminhão;</li>
+    <li>Inserir um novo caminhão.</li>
+</ul>
+<h3>Requisito secundário</h3>
+<p>Poderão existir vários modelos de caminhões.</p>
+<ul><li>Os modelos permitidos serão somente (FH e FM)</li></ul>
+<p class="text-danger font-weight-bold">[EF] Na minha opinião, este requisito ficou passivel de interpretação, entendo que "vários modelos" é bem mais que dois modelos (FH e FM), por este motivo, implementei a validação para aceitar modelos que iniciem por FH e FM.</p>
+
+<h3>Requisitos técnicos</h3>
+<ul>
+   <li> Utilizar ASP.NET Core;</li>
+   <li> Utilizar base de dados local;</li>
+   <li> Utilizar ORM para mapear as tabelas de base de dados</li>
+   <ul>
+       <li> Utilizar “Migrations” para criação da base de dados;                                                       </li>
+       <li> A criação da base de dados deverá ser automática (sem a necessidade de utilizar algum comando adicional).  </li>
+   </ul>
+   <li> Criar testes unitários (Cobrir ao menos 80% dos fluxos) </li>
+</ul>
+<h3>Importante!</h3>
+<p>O código fonte deverá ser disponibilizado no GitHub como um repositório público do próprio candidato.           </p>
+<p>O código deverá conter todas as instruções para que o mesmo possa ser executado.                                </p>
+<p>A prova será desqualificada caso os respectivos testes não possam ser executados por falta de documentação.     </p>

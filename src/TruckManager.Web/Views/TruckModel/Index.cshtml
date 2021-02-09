@@ -1,0 +1,92 @@
+﻿@model IEnumerable<TruckManager.ViewModels.TruckModelViewModel>
+
+@{
+    ViewBag.Title = "Modelos";
+}
+
+<div class="container-fluid mt-3">
+    <nav class="navbar bg-secondary">
+        <h3>@ViewBag.Title</h3>
+        <form class="d-flex">
+            <a asp-controller="TruckModel" asp-action="Create" class="btn btn-info">
+                <i class="fa fa-plus"></i>
+                Novo
+            </a>
+        </form>
+    </nav>
+    <div class="container-fluid">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Modelo</th>                    
+                    <th>Ações</th>
+                </tr>
+
+            </thead>
+            @foreach (var truckModel in Model)
+            {
+                <tbody>
+                    <tr>
+                        <td>@truckModel.Value</td>
+                        <td>@truckModel.Text</td>
+                        <td>
+                            <div>
+                                <a asp-controller="TruckModel" asp-action="details" asp-route-id="@truckModel.Value" title="Detalhes">
+                                    <i class="fa fa-eye"></i>
+                                </a>|
+                                <a asp-controller="TruckModel" asp-action="edit" asp-route-id="@truckModel.Value" title="Editar">
+                                    <i class="fa fa-edit"></i>
+                                </a>|
+                                <a asp-controller="TruckModel" asp-action="delete" asp-route-id="@truckModel.Value" title="Remover">
+                                    <i class="fa fa-trash"></i>
+                                </a>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            }
+        </table>
+    </div>
+</div>
+
+
+
+
+@*<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Value)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Text)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Value)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Text)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                    @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                    @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>*@
+
