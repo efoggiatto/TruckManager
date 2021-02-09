@@ -1,0 +1,9 @@
+D:\DEV\TruckManager\src\TruckManager.ViewModels\bin\Release\netcoreapp3.1\TruckManager.ViewModels.deps.json
+D:\DEV\TruckManager\src\TruckManager.ViewModels\bin\Release\netcoreapp3.1\TruckManager.ViewModels.dll
+D:\DEV\TruckManager\src\TruckManager.ViewModels\bin\Release\netcoreapp3.1\TruckManager.ViewModels.pdb
+D:\DEV\TruckManager\src\TruckManager.ViewModels\obj\Release\netcoreapp3.1\TruckManager.ViewModels.csprojAssemblyReference.cache
+D:\DEV\TruckManager\src\TruckManager.ViewModels\obj\Release\netcoreapp3.1\TruckManager.ViewModels.AssemblyInfoInputs.cache
+D:\DEV\TruckManager\src\TruckManager.ViewModels\obj\Release\netcoreapp3.1\TruckManager.ViewModels.AssemblyInfo.cs
+D:\DEV\TruckManager\src\TruckManager.ViewModels\obj\Release\netcoreapp3.1\TruckManager.ViewModels.csproj.CoreCompileInputs.cache
+D:\DEV\TruckManager\src\TruckManager.ViewModels\obj\Release\netcoreapp3.1\TruckManager.ViewModels.dll
+D:\DEV\TruckManager\src\TruckManager.ViewModels\obj\Release\netcoreapp3.1\TruckManager.ViewModels.pdb

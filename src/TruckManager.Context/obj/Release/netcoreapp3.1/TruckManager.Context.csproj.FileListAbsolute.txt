@@ -1,0 +1,15 @@
+D:\DEV\TruckManager\src\TruckManager.Context\bin\Release\netcoreapp3.1\TruckManager.Context.deps.json
+D:\DEV\TruckManager\src\TruckManager.Context\bin\Release\netcoreapp3.1\TruckManager.Context.runtimeconfig.json
+D:\DEV\TruckManager\src\TruckManager.Context\bin\Release\netcoreapp3.1\TruckManager.Context.runtimeconfig.dev.json
+D:\DEV\TruckManager\src\TruckManager.Context\bin\Release\netcoreapp3.1\TruckManager.Context.dll
+D:\DEV\TruckManager\src\TruckManager.Context\bin\Release\netcoreapp3.1\TruckManager.Context.pdb
+D:\DEV\TruckManager\src\TruckManager.Context\bin\Release\netcoreapp3.1\TruckManager.Domain.dll
+D:\DEV\TruckManager\src\TruckManager.Context\bin\Release\netcoreapp3.1\TruckManager.Domain.pdb
+D:\DEV\TruckManager\src\TruckManager.Context\obj\Release\netcoreapp3.1\TruckManager.Context.csprojAssemblyReference.cache
+D:\DEV\TruckManager\src\TruckManager.Context\obj\Release\netcoreapp3.1\TruckManager.Context.AssemblyInfoInputs.cache
+D:\DEV\TruckManager\src\TruckManager.Context\obj\Release\netcoreapp3.1\TruckManager.Context.AssemblyInfo.cs
+D:\DEV\TruckManager\src\TruckManager.Context\obj\Release\netcoreapp3.1\TruckManager.Context.csproj.CoreCompileInputs.cache
+D:\DEV\TruckManager\src\TruckManager.Context\obj\Release\netcoreapp3.1\TruckManager.Context.csproj.CopyComplete
+D:\DEV\TruckManager\src\TruckManager.Context\obj\Release\netcoreapp3.1\TruckManager.Context.dll
+D:\DEV\TruckManager\src\TruckManager.Context\obj\Release\netcoreapp3.1\TruckManager.Context.pdb
+D:\DEV\TruckManager\src\TruckManager.Context\obj\Release\netcoreapp3.1\TruckManager.Context.genruntimeconfig.cache
